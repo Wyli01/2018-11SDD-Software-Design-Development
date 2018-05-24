@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<link href="Unitconvertor.css"></link>
+<script src="java.js"></script>
+<title>Unit Converter</title>
+<body>
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+        <blockquote>
+          <blockquote>
+            <blockquote>
+              <blockquote>
+                <blockquote>
+                  <h2>Unit Converter</h2>
+                </blockquote>
+              </blockquote>
+            </blockquote>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+</blockquote>
+	<blockquote>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+<div class="tab">
+  <button class="tablinks" onclick="opentab(event, 'M-F')" id="defaultOpen">Meter & Feet</button>
+  <button class="tablinks" onclick="opentab(event, 'F-C')">Fahrenheit & Celcius</button>
+  <button class="tablinks" onclick="opentab(event, 'k-m')">KPH & MPH</button>
+  <button class="tablinks" onclick="opentab(event, 'P-k')">Pounds & Kg</button>
+</div></blockquote>
+  </blockquote>
+    </blockquote>
+      </blockquote>
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+       	
+<div id="M-F" class="tabcontent">
+       
+<h4>Length</h4>
+<label>Feet:</label>
+  <input id="inputFeet" type="number" placeholder="Feet" oninput="lengthConverter(this.value)" onchange="lengthConverter(this.value)">
+<p>Meters: <span id="outputMeters"></span></p>
+<br>
+<label>Meters:</label>
+  <input id="inputMeters" type="number" placeholder="Meter" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+<p>Feet: <span id="outputFeet"></span></p>
+	<br>
+	<label>Kilometers:</label>
+  <input id="inputKilometers" type="number" placeholder="Kilometers" oninput="engthConverter(this.value)" onchange="engthConverter(this.value)">
+</p>
+<p>Miles: <span id="outputMiles"></span></p>
+<br>
+
+<label>Miles</label>
+  <input id="inputMiles" type="number" placeholder="Miles" oninput="LengthConverter(this.value)" onchange="EngthConverter(this.value)">
+<p>Kilometers: <span id="outputKilometers"></span></p>
+	
+</div>
+	</blockquote>
+             </blockquote>
+              </blockquote>
+            </blockquote>
+          </blockquote>
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+<div id="F-C" class="tabcontent">
+<p>
+	<h4> Temperature</h4>
+  <label>Fahrenheit:</label>
+  <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+  oninput="temperatureConverter(this.value)"
+  onchange="temperatureConverter(this.value)">
+</p>
+<p>Celsius: <span id="outputCelsius"></span></p>
+<p>
+	<br>
+<label>Celcius:</label>
+  <input id="inputCelcius" type="number" placeholder="Celcius"
+  oninput="TemperatureConverter(this.value)"
+  onchange="TemperatureConverter(this.value)">
+</p>
+<p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+</div>
+</blockquote>
+              </blockquote>
+            </blockquote>
+          </blockquote>
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+<div id="k-m" class="tabcontent">
+	<h4>Speed</h4>
+<p>
+  <label>MPH:</label>
+  <input id="inputMPH" type="number" placeholder="MPH"
+  oninput="speedConverter(this.value)"
+  onchange="speedConverter(this.value)">
+</p>
+<p>KPH: <span id="outputKPH"></span></p>
+<p>
+  <label>KPH:</label>
+  <input id="inputKPH" type="number" placeholder="KPH" oninput="SpeedConverter(this.value)" onchange="SpeedConverter(this.value)">
+</p>
+<p>MPH: <span id="outputMPH"></span></p>
+</div>
+</blockquote>
+              </blockquote>
+            </blockquote>
+          </blockquote>
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+<div id="P-K" class="tabcontent">
+	<h4>Weight</h4>
+  <p>
+  <label>Pounds</label>
+  <input id="inputPounds" type="number" placeholder="Pounds" oninput="WeightConverter(this.value)" onchange="WeightConverter(this.value)">
+</p>
+<p>Kilograms: <span id="outputKilograms"></span></p>
+	<p>
+  <label>Kilograms</label>
+  <input id="inputKilograms" type="number" placeholder="Kilograms" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+</p>
+<p>Pounds: <span id="outputPounds"></span></p>
+</div>
+</blockquote>
+              </blockquote>
+            </blockquote>
+          </blockquote>
+</body>
+</html>

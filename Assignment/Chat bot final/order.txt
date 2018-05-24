@@ -1,0 +1,1 @@
+{"jeff": ["Napoletana", "Coke", "Napoletana", "No drinks", "Napoletana", "Coke"], "bob": ["Napoletana", "Asahi", "Hawaiian", "Coke", "Supreme pizza", "Sprite", "Meat lovers", "Coke"], "jeremiah the cuach": ["Napoletana", "Asahi"], "blowjob": ["Napoletana", "Coke", "Hawaiian", "No drinks", "Margherita", "Asahi"]}

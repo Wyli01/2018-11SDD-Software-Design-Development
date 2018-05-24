@@ -1,0 +1,47 @@
+/* CSS Document */
+table{
+	width:310px;
+	margin: 50px;
+	background: #000000;
+	border: none;
+	border-radius: 10px;
+	padding: 0px 20px 20px;
+	box-shadow: 2px 2px 2px grey;
+}
+.heading{
+	color: white;
+	font-size: 130%;
+	text-align: center;
+	}
+#input, #answer {
+	width: 100%;
+	font-size: 220%;
+	text-align: right;
+	border: none;
+}
+#input{
+	border-radius: 5px 5px 0px 0px;
+	box-shadow: 2px 2px 2px grey;
+	color: white;
+	background-color: black;
+	
+}
+#answer{
+	box-shadow: 2px 2px 2px grey;
+	background-color: black;
+}
+input[type=button] {
+	height: 60px;
+	width: 60px;
+	font-size: 130%;
+	color: white;
+	background: #333333;
+	margin: 1px;
+	border-radius: 50px;
+	border: none;
+	box-shadow: 2px 2px 2px #333366;
+}
+input[type=button]:hover{
+	background:#444444;
+	cursor: pointer;
+}
